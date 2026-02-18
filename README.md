@@ -158,15 +158,6 @@ PEParser.exe C:\Windows\System32\notepad.exe
 cl.exe /W4 /O2 PEParser.c /Fe:PEParser.exe
 ```
 
-## Project Structure
-```
-PEParser/
-├── PEParser.c       # Main source code
-├── PEParser.sln     # Visual Studio solution
-├── PEParser.vcxproj # Visual Studio project
-└── README.md        # This file
-```
-
 ## What I Learned
 
 - PE file structure and layout
@@ -175,15 +166,6 @@ PEParser/
 - Windows API functions (CreateFileW, ReadFile, HeapAlloc)
 - Error handling patterns in C
 - File I/O operations
-
-## Future Improvements
-
-- [ ] Parse Import Table (show imported DLLs and functions)
-- [ ] Parse Export Table (show exported functions)
-- [ ] Parse Data Directories
-- [ ] Decode Characteristics flags to readable text
-- [ ] Add hex dump of headers
-- [ ] Support for packed/obfuscated PEs
 
 ## References
 
