@@ -198,16 +198,3 @@ This tool is for educational purposes only. Use responsibly and only on files yo
 ## License
 
 MIT License
-```
-
----
-
-## Files to Include in Your GitHub Repo
-```
-PEParser/
-├── PEParser.c           # Your source code
-├── PEParser.sln         # Visual Studio solution (optional)
-├── PEParser.vcxproj     # Visual Studio project (optional)
-├── README.md            # The readme above
-├── screenshot.png       # Screenshot of output (recommended)
-└── LICENSE              # MIT License file (optional)
