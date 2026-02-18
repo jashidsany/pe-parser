@@ -1,10 +1,6 @@
 # pe-parser
 PE file parser written in C. Analyzes Windows executables by parsing DOS/NT headers and sections. Displays entry point, image base, section layout, and architecture info. Built with Windows API (CreateFileW, HeapAlloc, ReadFile). Great for learning Windows internals, reverse engineering, and malware analysis fundamentals.
 
-# PE Parser
-
-A Windows PE (Portable Executable) file parser written in C. This tool analyzes the structure of Windows executables (.exe) and DLLs (.dll) by parsing their headers and displaying detailed information.
-
 ## What is a PE File?
 
 PE (Portable Executable) is the file format used by Windows for executables, DLLs, and other binary files. Understanding PE structure is fundamental for:
